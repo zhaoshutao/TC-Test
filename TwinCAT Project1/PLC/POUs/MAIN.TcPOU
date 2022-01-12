@@ -11,12 +11,20 @@ END_VAR
     <Implementation>
       <ST><![CDATA[a:=1;
 b:=TRUE;
-c:=1.12;]]></ST>
+ACT();]]></ST>
     </Implementation>
+    <Action Name="ACT" Id="{cdfb380b-d5a4-49c8-8611-50a25504f441}">
+      <Implementation>
+        <ST><![CDATA[a:=2;]]></ST>
+      </Implementation>
+    </Action>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
       <LineId Id="9" Count="0" />
-      <LineId Id="11" Count="0" />
+      <LineId Id="12" Count="0" />
+    </LineIds>
+    <LineIds Name="MAIN.ACT">
+      <LineId Id="1" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
