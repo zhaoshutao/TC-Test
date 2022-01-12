@@ -3,13 +3,20 @@
   <POU Name="MAIN" Id="{7a0c6b10-31d2-445f-aa5f-902e41ceca90}" SpecialFunc="None">
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
+	a:INT;
+	b:BOOL;
+	c:LREAL;
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[;]]></ST>
+      <ST><![CDATA[a:=1;
+b:=TRUE;
+c:=1.12;]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
+      <LineId Id="9" Count="0" />
+      <LineId Id="11" Count="0" />
     </LineIds>
   </POU>
 </TcPlcObject>
